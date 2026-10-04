@@ -4,7 +4,7 @@ The public website for [Flyintake](https://app.flyintake.com): vehicle intake so
 
 It's a plain static site with no build step. All the website files are in `docs/`. Every push to `main` copies `docs/` to the `gh-pages` branch, and GitHub Pages serves the site from there:
 
-**https://aliw77.github.io/flyintake_public/**
+**https://aliw77.github.io/flyintake-marketing-public/**
 
 ## Editing
 - **Pages:** `docs/index.html`, `docs/features.html` and `docs/blog/`.
