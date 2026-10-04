@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Features | Flyintake Vehicle Intake Software</title>
+  <meta name="description" content="VIN barcode scanning, four-corner condition photos, AI voice-to-work-order, customer SMS updates, Google review requests and Google Drive storage for auto repair shops.">
+  <meta name="theme-color" content="#142b3b">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Flyintake">
+  <meta property="og:title" content="Features | Flyintake Vehicle Intake Software">
+  <meta property="og:description" content="VIN barcode scanning, four-corner condition photos, AI voice-to-work-order, customer SMS updates, Google review requests and Google Drive storage for auto repair shops.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="container nav" aria-label="Main">
+    <a class="brand" href="./"><img src="assets/img/logo-mark.svg" alt=""><span>Fly<b>intake</b></span></a>
+    <ul class="nav-links">
+      <li><a href="features.html" aria-current="page">Features</a></li>
+      <li><a href="index.html#how-it-works">How it works</a></li>
+      <li><a href="index.html#roadmap">Roadmap</a></li>
+      <li><a href="blog/">Blog</a></li>
+      <li><a href="index.html#faq">FAQ</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="login-link" href="https://app.flyintake.com">Log in</a>
+      <a class="btn btn-primary" href="index.html#early-access">Get early access</a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Features</span>
+      <h1>Everything you need at check-in, and nothing you don't.</h1>
+      <p class="lead">Flyintake is built around the moments that make or break a repair: the walk-around, the write-up, and every conversation with the customer after that.</p>
+      <div class="btn-row" style="margin-top:24px">
+        <a class="btn btn-primary" href="index.html#early-access">Get early access</a>
+        <a class="btn btn-outline" href="https://app.flyintake.com">Log in to Flyintake</a>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:24px">
+    <div class="container">
+
+      <div class="feature-block" id="vin">
+        <div>
+          <span class="eyebrow">Vehicle check-in</span>
+          <h2>Scan the VIN and skip the typing</h2>
+          <p class="lead">Scan the VIN barcode on the door jamb or registration with your phone's camera. Flyintake decodes it with the NHTSA public VIN service and fills in the year, make and model.</p>
+          <ul class="checklist">
+            <li><strong>Works on any modern phone.</strong> Uses built-in barcode detection, with a fallback for browsers that don't support it.</li>
+            <li><strong>Manual entry is always available</strong> for worn or missing barcodes.</li>
+            <li><strong>Capture the basics:</strong> odometer, owner name and phone, repair status and shop notes, all in one form.</li>
+          </ul>
+        </div>
+        <div class="feature-visual" aria-hidden="true">
+          <div class="app-card" style="width:100%;max-width:340px;padding:20px">
+            <div class="row"><span class="label">VIN · scanned</span><span class="chip">Decoded</span></div>
+            <div class="vin" style="font-size:1.1rem;margin:6px 0">5YJ3E1EA7KF3•••••</div>
+            <div style="color:var(--muted)">2019 Tesla Model 3 · 61,904 mi</div>
+            <hr style="border:0;border-top:1px solid var(--line);margin:14px 0">
+            <div class="row"><span>Owner</span><b>Marcus R.</b></div>
+            <div class="row"><span>Status</span><span class="chip">Intake</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-block flip" id="photos">
+        <div>
+          <span class="eyebrow">Condition photos</span>
+          <h2>Four corners, every car, every time</h2>
+          <p class="lead">Tap a corner of the car diagram to open a full-screen rear camera, take the shot, and it's saved to that corner. Every vehicle gets the same consistent set of photos.</p>
+          <ul class="checklist">
+            <li><strong>Front-left, front-right, rear-left, rear-right.</strong> No angles skipped.</li>
+            <li><strong>Retakes never erase evidence.</strong> A new photo keeps the earlier upload.</li>
+            <li><strong>Pre-existing damage is on record</strong> before the car goes into the bay.</li>
+          </ul>
+        </div>
+        <div class="feature-visual" aria-hidden="true">
+          <div class="corners" style="width:100%;max-width:360px;gap:10px">
+            <div class="corner" data-l="Front left"></div><div class="corner c2" data-l="Front right"></div>
+            <div class="corner c3" data-l="Rear left"></div><div class="corner c4" data-l="Rear right"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-block" id="voice">
+        <div>
+          <span class="eyebrow">AI work orders</span>
+          <h2>Describe the problem out loud and get a work order</h2>
+          <p class="lead">Tap <b>Record audio</b> and talk through the customer's concern or your diagnosis. Flyintake creates a transcript and a structured work-order draft that your team can edit before anything is authorised.</p>
+          <ul class="checklist">
+            <li><strong>Audio is saved first,</strong> so a failed transcription never loses the recording.</li>
+            <li><strong>Upload or record:</strong> MP3, M4A, WAV, WEBM or OGG, including iPhone recordings.</li>
+            <li><strong>Drafts stack up.</strong> New notes are added to the existing work order instead of replacing it.</li>
+          </ul>
+        </div>
+        <div class="feature-visual" aria-hidden="true">
+          <div class="app-card" style="width:100%;max-width:360px;padding:20px">
+            <div class="row"><span class="label">Voice note · 0:42</span><span class="chip orange">Draft</span></div>
+            <p style="margin:10px 0 6px;font-weight:600">Work order</p>
+            <ol style="margin:0;padding-left:18px;color:var(--slate);font-size:.92rem">
+              <li>Inspect front brake pads and rotors. Customer reports grinding at low speed.</li>
+              <li>Check for pulsation under braking.</li>
+              <li>Quote pads and rotors if below spec.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-block flip" id="documents">
+        <div>
+          <span class="eyebrow">Documents and storage</span>
+          <h2>Every bill and receipt filed with the car it belongs to</h2>
+          <p class="lead">Attach parts invoices, receipts, estimates and documents to the vehicle while the work is under way. Everything syncs to the shop owner's Google Drive.</p>
+          <ul class="checklist">
+            <li><strong>Organised automatically</strong> into <code>FLYINTAKE_VEHICLES / Make Model + Owner + VIN</code>.</li>
+            <li><strong>Your data stays yours.</strong> Flyintake can only access the files it creates in your Drive.</li>
+            <li><strong>Every field autosaves</strong> as you type, and conflict protection stops two techs from overwriting each other's changes.</li>
+          </ul>
+        </div>
+        <div class="feature-visual" aria-hidden="true">
+          <div class="app-card" style="width:100%;max-width:360px;padding:20px;font-size:.92rem">
+            <div class="label" style="margin-bottom:8px">Google Drive</div>
+            <div>📁 FLYINTAKE_VEHICLES</div>
+            <div style="padding-left:18px">📁 Honda Accord · Dana K. · 1HGCV1F3…</div>
+            <div style="padding-left:36px;color:var(--slate)">🖼️ front-left.jpg<br>🖼️ rear-right.jpg<br>🧾 parts-invoice.pdf<br>🎙️ concern.m4a</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-block" id="contact">
+        <div>
+          <span class="eyebrow">Customer check-in screen</span>
+          <h2>Customers type their own contact details</h2>
+          <p class="lead">Choose <b>Capture contact details</b> and hand over the phone or tablet. A distraction-free, full-screen view lets the customer enter their name, phone, email and texting consent.</p>
+          <ul class="checklist">
+            <li><strong>Large, easy keys:</strong> a big phone keypad and a tablet-style keyboard.</li>
+            <li><strong>Email shortcuts</strong> for Gmail, Yahoo, Outlook, iCloud and more.</li>
+            <li><strong>Phone numbers format themselves,</strong> and consent is recorded before any text is sent.</li>
+          </ul>
+        </div>
+        <div class="photo photo-counter" style="min-height:340px" role="img" aria-label="Customer at a clean shop service counter"></div>
+      </div>
+
+      <div class="feature-block flip" id="sms">
+        <div>
+          <span class="eyebrow">Texting and reviews</span>
+          <h2>Repair updates by text and a review request when the job's done</h2>
+          <p class="lead">Send repair updates from the intake screen using your shop's own SMS number. When the repair is marked Completed, send your Google review link through a branded short link, or let Flyintake send it automatically.</p>
+          <ul class="checklist">
+            <li><strong>Shop-specific history</strong> of every message sent.</li>
+            <li><strong>Built-in compliance:</strong> shop name and "Reply STOP to opt out" on every message.</li>
+            <li><strong>No duplicate requests.</strong> Each repair gets at most one review request.</li>
+          </ul>
+        </div>
+        <div class="feature-visual" aria-hidden="true">
+          <div class="sms" style="box-shadow:var(--shadow)">
+            <div class="bubble">Main St. Auto: Your Model 3 is ready for pickup. We're open until 6pm. Reply STOP to opt out.</div>
+            <div class="bubble">Main St. Auto: Thanks for trusting us, Marcus! Mind leaving a quick review? app.flyintake.com/r/mainst</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-block" id="teams">
+        <div>
+          <span class="eyebrow">Teams and locations</span>
+          <h2>Built for teams and for multiple locations</h2>
+          <p class="lead">Invite your service advisors and techs by Google email. Owners, admins and staff each get the right level of access, and each shop's records stay separate from the others.</p>
+          <ul class="checklist">
+            <li><strong>Sign in with Google.</strong> No new passwords for your team to remember.</li>
+            <li><strong>Role-based access:</strong> staff work on intakes, admins manage the team, and owners control the settings.</li>
+            <li><strong>Multi-shop ready.</strong> People can belong to several locations and switch between them in one click.</li>
+          </ul>
+        </div>
+        <div class="photo photo-tech" style="min-height:340px" role="img" aria-label="Technician working in a clean, well-lit service bay"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-soft">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Coming soon</span>
+        <h2>On the roadmap</h2>
+      </div>
+      <div class="roadmap">
+        <article class="card"><h3>Customer repair-status page <span class="tag soon">Next</span></h3><p>A private, mobile-friendly link for each repair with the current status, a progress timeline and the photos and videos you choose to share.</p></article>
+        <article class="card"><h3>Automatic status texts and email <span class="tag soon">Planned</span></h3><p>Template-driven notices for intake confirmation, approval requests and ready-for-pickup, with delivery history.</p></article>
+        <article class="card"><h3>Repair videos <span class="tag soon">Planned</span></h3><p>Record a short video explaining the repair and publish it to the customer's status page with a caption.</p></article>
+        <article class="card"><h3>Live transcription <span class="tag soon">Planned</span></h3><p>See words appear as you speak, with a shop-specific vocabulary for parts, codes and makes.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="cta-band">
+        <h2>Ready to modernise your service drive?</h2>
+        <p>Join the early-access group and help shape what Flyintake builds next.</p>
+        <div class="btn-row" style="margin-top:24px">
+          <a class="btn btn-primary" href="mailto:hello@flyintake.com?subject=Flyintake%20early%20access">Request early access</a>
+          <a class="btn btn-ghost" href="https://app.flyintake.com">Log in</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="./"><img src="assets/img/logo-mark.svg" alt=""><span>Fly<b>intake</b></span></a>
+        <p>Vehicle intake and customer communication software for auto repair shops.</p>
+      </div>
+      <div><h4>Product</h4><ul><li><a href="features.html">Features</a></li><li><a href="index.html#how-it-works">How it works</a></li><li><a href="index.html#roadmap">Roadmap</a></li><li><a href="https://app.flyintake.com">Log in</a></li></ul></div>
+      <div><h4>Resources</h4><ul><li><a href="blog/">Blog</a></li><li><a href="blog/vehicle-intake-checklist.html">Vehicle intake checklist</a></li><li><a href="index.html#faq">FAQ</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="mailto:hello@flyintake.com">Contact</a></li><li><a href="https://app.flyintake.com/privacy">Privacy</a></li><li><a href="https://app.flyintake.com/terms">Terms</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year">2026</span> Flyintake. All rights reserved.</span><span>Made for the people who keep us moving.</span></div>
+  </div>
+</footer>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
