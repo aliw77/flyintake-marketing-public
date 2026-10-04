@@ -18,6 +18,6 @@ cd docs && python3 -m http.server 8000
 ```
 
 ## Custom domain
-In **Settings → Pages → Custom domain**, enter `flyintake.com`. Add a `CNAME` file containing `flyintake.com` to `docs/` so the publish workflow keeps it. Then point DNS at GitHub Pages and enable **Enforce HTTPS**.
+The site is served at **https://flyintake.com** (`docs/CNAME`). DNS lives in Cloudflare: four `A` records on the apex point to GitHub Pages (185.199.108–111.153), and `www` is a `CNAME` to `aliw77.github.io`, all set to DNS only. Keep `docs/CNAME` in place, because the publish workflow replaces `gh-pages` on every run.
 
 Marketing strategy (keywords, content plan, messaging) lives in the private `flyintake-marketing` repo.
