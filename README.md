@@ -1,4 +1,4 @@
-# flyintake_public
+# flyintake-marketing-public
 
 The public website for [Flyintake](https://app.flyintake.com): vehicle intake software for auto repair shops.
 
